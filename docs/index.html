@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>BlaBlamU — Documentation Design &amp; UI</title>
+  <meta name="description" content="Documentation technique de l'interface BlaBlamU (Charte graphique, composants et écrans Mobile &amp; Desktop fidèles au Figma).">
+  <link rel="icon" type="image/svg+xml" href="assets/logo/favicon_normal.svg">
+
+  <!-- Polices Google Fonts utilisées dans la maquette Figma -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=Inter:wght@400;600;700;800&family=SUSE+Mono:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Thème Docsify (style GitBook) + styles personnalisés -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="styles/docs.css">
+</head>
+<body>
+  <div id="app">Chargement de la documentation BlaBlamU...</div>
+
+  <script>
+    window.$docsify = {
+      name: 'BlaBlamU — Docs UI',
+      logo: 'assets/logo/favicon_normal.svg',
+      repo: 'https://github.com/BUT-MMI/SAE_301',
+      loadSidebar: true,
+      loadNavbar: true,
+      subMaxLevel: 3,
+      auto2top: true,
+      relativePath: false,
+      themeColor: '#8039E9',
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: 'Rechercher dans la doc...',
+        noData: 'Aucun résultat',
+        depth: 4
+      },
+      pagination: {
+        previousText: 'Précédent',
+        nextText: 'Suivant',
+        crossChapter: true,
+        crossChapterText: true
+      },
+      copyCode: {
+        buttonText: 'Copier',
+        errorText: 'Erreur',
+        successText: 'Copié !'
+      }
+    };
+  </script>
+
+  <!-- Docsify & plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+</body>
+</html>
