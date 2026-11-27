@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 505.692 382.751">
+  <defs>
+    <style>
+      .cls-1{fill:#8039e9}
+      .cls-2{fill:none;stroke:#ffffff;stroke-width:6}
+      .cls-3{fill:none;stroke:#ffffff;stroke-width:6;stroke-miterlimit:10}
+      .cls-4{font-family:&apos;Monument Grotesk&apos;, sans-serif;font-size:98px;fill:#ffffff;letter-spacing:0.098px}
+    </style>
+  </defs>
+  <title>Asset 1</title>
+  <g id="favicon">
+    <path d="M190.078 0 L190.078 0 C295.055 0 380.156 85.101 380.156 190.078 L380.156 192.673 C380.156 297.65 295.055 382.751 190.078 382.751 L190.078 382.751 C85.101 382.751 0 297.65 0 192.673 L0 190.078 C0 85.101 85.101 0 190.078 0 Z" class="cls-1"/>
+    <circle cx="89.565" cy="217.758" r="12.531" class="cls-2"/>
+    <circle cx="313.868" cy="217.758" r="12.531" class="cls-2"/>
+    <path d="M69.173 217.758 C69.173 217.758 68.77 206.392 77.033 201.183 C86.726 195.074 96.351 197.875 96.351 197.875 L96.351 166.296 C96.351 166.296 36.461 171.734 34.404 194.561 C33.072 209.34 37.616 215.315 45.79 217.758 C55.431 220.64 69.173 217.758 69.173 217.758 Z" class="cls-3"/>
+    <path d="M34.182 200.163 C47.704 199.02 60.652 191.557 59.801 176.112" class="cls-3"/>
+    <path d="M309.591 196.516 L309.591 146.559 C309.591 146.559 343.257 146.559 343.65 167.941 C343.859 179.336 344.257 218.003 344.257 218.003 L334.513 217.758 C334.513 217.758 335.1 204.671 324.772 199.335 C316.726 195.177 309.591 196.516 309.591 196.516 Z" class="cls-3"/>
+    <path d="M323.597 149.654 C323.597 162.512 317.981 183.834 341.419 182.614" class="cls-3"/>
+    <text transform="matrix(1 0 0 1 102.096 0)" x="0" y="215.093" xml:space="preserve" class="cls-4"><tspan x="0" y="215.093">amU</tspan></text>
+  </g>
+</svg>

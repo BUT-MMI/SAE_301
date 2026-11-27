@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 474.518 530.336">
+  <defs>
+    <style>
+      .cls-1{fill:none;stroke:#000000;stroke-width:6}
+      .cls-2{fill:none;stroke:#000000;stroke-width:6;stroke-miterlimit:10}
+      .cls-3{font-family:&apos;Monument Grotesk&apos;, sans-serif;font-size:98px;fill:#000000;letter-spacing:0.098px}
+      .cls-4{font-family:&apos;Monument Grotesk&apos;, sans-serif;font-size:31px;fill:#000000;letter-spacing:0.031px}
+    </style>
+  </defs>
+  <title>Asset 5</title>
+  <g id="Layer_3" data-name="Layer 3">
+    <circle cx="58.391" cy="217.758" r="12.531" class="cls-1"/>
+    <circle cx="282.694" cy="217.758" r="12.531" class="cls-1"/>
+    <path d="M37.998 217.758 C37.998 217.758 37.596 206.392 45.859 201.183 C55.551 195.074 65.176 197.875 65.176 197.875 L65.176 166.296 C65.176 166.296 5.286 171.734 3.23 194.561 C1.898 209.34 6.442 215.315 14.616 217.758 C24.257 220.64 37.998 217.758 37.998 217.758 Z" class="cls-2"/>
+    <path d="M3.008 200.163 C16.53 199.02 29.477 191.557 28.627 176.112" class="cls-2"/>
+    <path d="M278.417 196.516 L278.417 146.559 C278.417 146.559 312.083 146.559 312.475 167.941 C312.684 179.336 313.082 218.003 313.082 218.003 L303.338 217.758 C303.338 217.758 303.926 204.671 293.598 199.335 C285.551 195.177 278.417 196.516 278.417 196.516 Z" class="cls-2"/>
+    <path d="M292.423 149.654 C292.423 162.512 286.807 183.834 310.245 182.614" class="cls-2"/>
+    <text transform="matrix(1 0 0 1 70.922 0)" x="0" y="215.093" xml:space="preserve" class="cls-3"><tspan x="0" y="215.093">amU</tspan></text>
+    <text transform="matrix(1 0 0 1 14.078 184.519)" x="0" y="68.04" xml:space="preserve" class="cls-4"><tspan x="0" y="68.04">Sans frais ni pression</tspan></text>
+  </g>
+</svg>

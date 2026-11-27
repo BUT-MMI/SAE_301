@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 513.722 382.751">
+  <defs>
+    <style>
+      .cls-1{fill:#8039e9}
+      .cls-2{fill:none;stroke:#ffffff;stroke-width:6}
+      .cls-3{fill:none;stroke:#ffffff;stroke-width:6;stroke-miterlimit:10}
+      .cls-4{font-family:&apos;Monument Grotesk&apos;, sans-serif;font-size:98px;fill:#ffffff;letter-spacing:0.098px}
+    </style>
+  </defs>
+  <title>Asset 2</title>
+  <g id="Layer_3" data-name="Layer 3">
+    <rect x="0" y="0" width="413.071" height="382.751" class="cls-1"/>
+    <circle cx="97.595" cy="217.758" r="12.531" class="cls-2"/>
+    <circle cx="321.898" cy="217.758" r="12.531" class="cls-2"/>
+    <path d="M77.202 217.758 C77.202 217.758 76.8 206.392 85.063 201.183 C94.755 195.074 104.38 197.875 104.38 197.875 L104.38 166.296 C104.38 166.296 44.49 171.734 42.434 194.561 C41.102 209.34 45.646 215.315 53.82 217.758 C63.461 220.64 77.202 217.758 77.202 217.758 Z" class="cls-3"/>
+    <path d="M42.212 200.163 C55.734 199.02 68.681 191.557 67.831 176.112" class="cls-3"/>
+    <path d="M317.621 196.516 L317.621 146.559 C317.621 146.559 351.287 146.559 351.679 167.941 C351.888 179.336 352.286 218.003 352.286 218.003 L342.542 217.758 C342.542 217.758 343.13 204.671 332.802 199.335 C324.755 195.177 317.621 196.516 317.621 196.516 Z" class="cls-3"/>
+    <path d="M331.627 149.654 C331.627 162.512 326.011 183.834 349.449 182.614" class="cls-3"/>
+    <text transform="matrix(1 0 0 1 110.126 0)" x="0" y="215.093" xml:space="preserve" class="cls-4"><tspan x="0" y="215.093">amU</tspan></text>
+  </g>
+</svg>
