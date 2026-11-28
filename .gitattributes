@@ -1,0 +1,15 @@
+# Normalisation des fins de ligne
+* text=auto
+
+*.md text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.svg text eol=lf
+
+*.png binary
+*.ttf binary
+
+# GitHub Linguist : inclure le Markdown et la documentation dans docs/
+*.md linguist-documentation=false linguist-detectable=true
+docs/** linguist-documentation=false linguist-detectable=true
+docs/assets/** linguist-detectable=false
