@@ -379,3 +379,327 @@
   margin-bottom: 4px;
   font-weight: 600;
 }
+
+/* Bouton flottant de changement de thème */
+.bb-theme-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 14px;
+  border-radius: 999px;
+  border: 1px solid #DEE2E6;
+  background: #FFFFFF;
+  color: #152536;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(9, 11, 16, 0.14);
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+}
+
+.bb-theme-toggle:hover {
+  border-color: #8039E9;
+  transform: translateY(-1px);
+}
+
+.bb-theme-toggle:focus-visible {
+  outline: 2px solid #8039E9;
+  outline-offset: 2px;
+}
+
+/* ==========================================================================
+   Dark Mode — Palette BlaBlamU (#090B10 / #121621 / #B08AE8)
+   ========================================================================== */
+
+html[data-theme="dark"],
+html[data-theme="dark"] body {
+  background-color: #090B10;
+  color: #E6EAF2;
+}
+
+html[data-theme="dark"] main,
+html[data-theme="dark"] .content {
+  background-color: #090B10;
+  color: #E6EAF2;
+}
+
+html[data-theme="dark"] .sidebar {
+  background-color: #0F1219;
+  color: #CBD5E1;
+  border-right: 1px solid #262D40;
+}
+
+html[data-theme="dark"] .sidebar .app-name-link {
+  color: #FFFFFF;
+}
+
+html[data-theme="dark"] .sidebar ul li a {
+  color: #CBD5E1;
+}
+
+html[data-theme="dark"] .sidebar ul li a:hover {
+  color: #DAC4FB;
+}
+
+html[data-theme="dark"] .sidebar ul li.active > a {
+  color: #DAC4FB;
+  border-right-color: #B08AE8;
+}
+
+html[data-theme="dark"] .sidebar ul li strong,
+html[data-theme="dark"] .sidebar ul li > p {
+  color: #FFFFFF;
+}
+
+html[data-theme="dark"] .sidebar-toggle {
+  background-color: rgba(15, 18, 25, 0.9);
+  border-radius: 6px;
+}
+
+html[data-theme="dark"] .sidebar-toggle span {
+  background-color: #B08AE8;
+}
+
+html[data-theme="dark"] .search {
+  border-bottom-color: #262D40;
+}
+
+html[data-theme="dark"] .search input {
+  background-color: #121621;
+  color: #FFFFFF;
+  border: 1px solid #262D40;
+  border-radius: 6px;
+}
+
+html[data-theme="dark"] .search input::placeholder {
+  color: #8B95A7;
+}
+
+html[data-theme="dark"] .search .clear-button svg {
+  fill: #CBD5E1;
+}
+
+html[data-theme="dark"] .search .matching-post {
+  border-bottom-color: #262D40;
+}
+
+html[data-theme="dark"] .search .matching-post h2,
+html[data-theme="dark"] .search .matching-post p {
+  color: #CBD5E1;
+}
+
+html[data-theme="dark"] .app-nav a {
+  color: #E6EAF2;
+}
+
+html[data-theme="dark"] .app-nav a:hover,
+html[data-theme="dark"] .app-nav a.active {
+  color: #DAC4FB;
+}
+
+html[data-theme="dark"] .github-corner svg {
+  fill: #8039E9;
+  color: #FFFFFF;
+}
+
+/* Contenu Markdown */
+html[data-theme="dark"] .markdown-section {
+  color: #E6EAF2;
+}
+
+html[data-theme="dark"] .markdown-section h1,
+html[data-theme="dark"] .markdown-section h2,
+html[data-theme="dark"] .markdown-section h3,
+html[data-theme="dark"] .markdown-section h4,
+html[data-theme="dark"] .markdown-section strong {
+  color: #FFFFFF;
+}
+
+html[data-theme="dark"] .markdown-section h1,
+html[data-theme="dark"] .markdown-section h2 {
+  border-bottom-color: #262D40;
+}
+
+html[data-theme="dark"] .markdown-section a {
+  color: #B08AE8;
+}
+
+html[data-theme="dark"] .markdown-section a:hover {
+  color: #DAC4FB;
+}
+
+html[data-theme="dark"] .markdown-section hr {
+  border-bottom-color: #262D40;
+}
+
+html[data-theme="dark"] .markdown-section blockquote {
+  background-color: #121621;
+  border-left-color: #B08AE8;
+  color: #CBD5E1;
+}
+
+html[data-theme="dark"] .markdown-section code {
+  background-color: #1A2030;
+  color: #DAC4FB;
+}
+
+html[data-theme="dark"] .markdown-section pre,
+html[data-theme="dark"] .markdown-section pre > code {
+  background-color: #121621;
+  color: #E6EAF2;
+  border-color: #262D40;
+}
+
+html[data-theme="dark"] .markdown-section pre {
+  border: 1px solid #262D40;
+  border-radius: 8px;
+}
+
+html[data-theme="dark"] .markdown-section .docsify-copy-code-button {
+  background-color: #262D40;
+  color: #FFFFFF;
+}
+
+html[data-theme="dark"] .markdown-section table th {
+  background-color: #161B29;
+  color: #FFFFFF;
+  border-color: #262D40;
+}
+
+html[data-theme="dark"] .markdown-section table td {
+  background-color: #0F1219;
+  color: #E6EAF2;
+  border-color: #262D40;
+}
+
+html[data-theme="dark"] .markdown-section table tr:nth-child(2n) td {
+  background-color: #121621;
+}
+
+/* Pagination Docsify */
+html[data-theme="dark"] .docsify-pagination-container {
+  border-top-color: #262D40;
+}
+
+html[data-theme="dark"] .pagination-item-label,
+html[data-theme="dark"] .pagination-item-subtitle {
+  color: #8B95A7;
+}
+
+html[data-theme="dark"] .pagination-item-title {
+  color: #DAC4FB;
+}
+
+/* Zoom image overlay */
+html[data-theme="dark"] .medium-zoom-overlay {
+  background: rgba(9, 11, 16, 0.92) !important;
+}
+
+/* Composants personnalisés */
+html[data-theme="dark"] .node-badge {
+  background-color: #1D1631;
+  color: #DAC4FB;
+  border-color: #5227CC;
+}
+
+html[data-theme="dark"] .note-figma {
+  background-color: #151226;
+  border-left-color: #B08AE8;
+  color: #E6EAF2;
+}
+
+html[data-theme="dark"] .note-figma strong {
+  color: #DAC4FB;
+}
+
+html[data-theme="dark"] .swatch-card {
+  background-color: #121621;
+  border-color: #262D40;
+}
+
+html[data-theme="dark"] .swatch-color {
+  border-bottom-color: #262D40;
+}
+
+html[data-theme="dark"] .swatch-title {
+  color: #FFFFFF;
+}
+
+html[data-theme="dark"] .swatch-hex {
+  color: #DAC4FB;
+}
+
+html[data-theme="dark"] .swatch-var {
+  color: #9AA5B8;
+}
+
+html[data-theme="dark"] .typo-preview.light {
+  background-color: #121621;
+  color: #E6EAF2;
+  border-color: #262D40;
+}
+
+html[data-theme="dark"] .typo-preview.light .typo-row {
+  border-bottom-color: #262D40;
+}
+
+html[data-theme="dark"] .typo-preview.light .typo-tag {
+  color: #9AA5B8;
+}
+
+html[data-theme="dark"] .btn-demo-box {
+  background-color: #121621;
+  border-color: #262D40;
+}
+
+html[data-theme="dark"] .btn-demo-label {
+  color: #CBD5E1;
+}
+
+html[data-theme="dark"] .mockup-card,
+html[data-theme="dark"] .mockup-single {
+  background-color: #121621;
+  border-color: #262D40;
+}
+
+html[data-theme="dark"] .mockup-card figcaption,
+html[data-theme="dark"] .mockup-single figcaption {
+  color: #9AA5B8;
+}
+
+html[data-theme="dark"] .logo-tile {
+  background-color: #121621;
+  border-color: #262D40;
+}
+
+html[data-theme="dark"] .logo-tile-caption {
+  border-top-color: #262D40;
+  color: #E6EAF2;
+}
+
+/* Conserver les fonds contrastés des aperçus SVG */
+html[data-theme="dark"] .logo-tile-light {
+  background-color: #F8F9FA;
+}
+
+html[data-theme="dark"] .logo-tile-dark {
+  background-color: #090B10;
+}
+
+html[data-theme="dark"] .bb-theme-toggle {
+  background: #121621;
+  color: #FFFFFF;
+  border-color: #363F57;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+}
+
+html[data-theme="dark"] .bb-theme-toggle:hover {
+  border-color: #B08AE8;
+}
+
